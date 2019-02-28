@@ -1,13 +1,5 @@
 package GraphicsUnit1;
 
-//(c) A+ Computer Science
-//www.apluscompsci.com
-
-//Name -
-//Date -
-//Class -
-//Lab  -
-
 import java.awt.Graphics;
 import java.awt.Color;
 import java.awt.Canvas;
@@ -33,9 +25,13 @@ public class SmileyFace extends Canvas
 
       window.setColor(Color.YELLOW);
       window.fillOval( 210, 100, 400, 400 );
-
-		//add more code here
-
-
+      
+      window.setColor(Color.BLACK);
+      window.fillOval(310, 220, 50, 50);
+      
+      window.setColor(Color.BLACK);
+      window.fillOval(460, 220, 50, 50);
+      
+      window.fillArc(310, 320, 200, 100, 0, -180);
    }
 }
